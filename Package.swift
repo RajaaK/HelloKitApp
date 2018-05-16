@@ -23,6 +23,6 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "HelloKitTests",
-            dependencies: ["HelloKit"]),
+            dependencies: ["HelloKit","Validate"]),
     ]
 )
